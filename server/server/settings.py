@@ -18,7 +18,6 @@ INSTALLED_APPS = [
     'core',
     'users',
     'transaction_emails',
-    # 'rest_framework',
 ]
 
 MIDDLEWARE = [
