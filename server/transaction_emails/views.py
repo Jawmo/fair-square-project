@@ -25,7 +25,6 @@ def send_email_with_template(self, to_emails=[], version_alias=None):
     postmark = PostmarkClient(server_token=postmark_token)
 
     for email_address in to_emails:
-        print(email_address)
 
         transaction_email = None
 
