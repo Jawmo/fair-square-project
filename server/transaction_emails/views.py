@@ -4,7 +4,7 @@ from postmarker.core import PostmarkClient
 from users.models import CustomUser
 from transaction_emails.models import EmailVersion, TransactionEmail
 
-postmark_token = ''
+postmark_token = 'token_upon_request'
 
 def send_email_with_template(self, to_emails=[], version_alias=None):
 
